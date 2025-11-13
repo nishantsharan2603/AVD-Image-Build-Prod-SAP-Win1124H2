@@ -47,7 +47,7 @@ source "azure-arm" "win11_24h2_avd_sap" {
         resource_group      = "rgazweuavdprodacg01"
         gallery_name        = "acgazweuavdprod02"
         image_name          = "azure_windows_11_baseos_avd_sap800_24h2"
-        image_version       = "16.11.2025"
+        image_version       = "17.11.2025"
         replication_regions = ["westeurope","eastasia","eastus2"]
     }
 
